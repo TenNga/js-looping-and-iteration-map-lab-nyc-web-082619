@@ -4,5 +4,5 @@ lowerCaseDrivers = (drivers) => {
 }
 
 nameToAttributes = (drivers) => {
-  return drivers.map( (driver) => {driver.split(" ")})
+  return drivers.map( (driver) => {firstName = driver.split(" ")[0], lastName = driver.split(" ")[1]})
 }
